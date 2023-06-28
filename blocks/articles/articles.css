@@ -1,0 +1,137 @@
+.articles {
+  max-width: 1680px;
+  padding: 80px 120px;
+  width: 100%;
+}
+
+.articles__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.articles__title {
+  margin: 0;
+  font-size: 40px;
+  font-family: Rubik;
+  line-height: 135%;
+  letter-spacing: 0.4px;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+.articles__container-cards {
+  display: flex;
+}
+
+.articles__container-card {
+  display: flex;
+  background-color: #f7f5fa;
+  border-radius: 36px;
+  padding: 40px;
+  flex-direction: column;
+  margin-right: 24px;
+}
+
+.articles__container-card:last-child {
+  margin-right: 0;
+}
+
+.articles__container-image {
+  width: 463px;
+  height: 276px;
+}
+
+.articles__container-subtitle {
+  font-size: 24px;
+  font-family: Rubik;
+  line-height: 140%;
+  margin: 24px 0 8px 0;
+  width: 463px;
+  font-weight: 400;
+}
+
+.articles__container-date {
+  margin: 0;
+  font-size: 14px;
+  font-family: Rubik;
+  line-height: 135%;
+  font-weight: 400;
+}
+
+.articles__container-comment {
+  font-size: 16px;
+  font-family: Rubik;
+  line-height: 135%;
+  margin: 8px 0;
+  width: 464px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-weight: 400;
+}
+
+.articles__container-button {
+  background: none;
+  border: none;
+  margin-right: 363px;
+  padding: 0;
+  width: 101px;
+  font-size: 14px;
+  font-family: Rubik;
+  line-height: 135%;
+  text-decoration-line: underline;
+  color: #6d41a1;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 400px) {
+  .articles {
+    max-width: 351px;
+    padding: 32px 12px 44px;
+  }
+
+  .articles__title {
+    margin-bottom: 16px;
+    font-size: 28px;
+    letter-spacing: 0.28px;
+  }
+
+  .articles__container-card {
+    border-radius: 32px;
+    padding: 20px;
+    margin-right: 12px;
+  }
+
+  .articles__container-card:last-child {
+    margin-right: 0;
+  }
+
+  .articles__container-image {
+    width: 283px;
+    height: 196px;
+  }
+
+  .articles__container-subtitle {
+    margin: 12px 0 8px 0;
+    width: 283px;
+    font-size: 20px;
+    line-height: 135%;
+  }
+
+  .articles__container-comment {
+    width: 283px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .articles__container-button {
+    background: none;
+    border: none;
+    margin-right: 182px;
+  }
+}

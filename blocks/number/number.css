@@ -1,0 +1,29 @@
+.number {
+  color: #000;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  width: 221px;
+  justify-content: center;
+  font-size: 24px;
+  font-family: Rubik;
+  line-height: 140%;
+  margin-right: 40px;
+}
+
+.number_bottom {
+  margin: 40px 0 12px 0;
+}
+
+@media screen and (max-width: 400px) {
+  .number_header {
+    display: none;
+  }
+
+  .number_bottom {
+    margin: 32px 0 12px 0;
+    font-size: 18px;
+    line-height: 135%;
+    justify-content: flex-start;
+  }
+}

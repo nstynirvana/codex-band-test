@@ -1,0 +1,304 @@
+.information {
+  max-width: 1680px;
+  background-color: #110a1a;
+  padding: 80px 120px;
+  width: 100%;
+}
+.information__container {
+  max-width: 1680px;
+  display: flex;
+  flex-direction: column;
+}
+.information__title {
+  margin: 0;
+  font-size: 40px;
+  font-family: Rubik;
+  line-height: 135%;
+  letter-spacing: 0.4px;
+  color: #fff;
+  font-weight: 400;
+}
+.information__partners {
+  margin: 40px 0 80px;
+  gap: 24px;
+  display: flex;
+}
+.information__partner {
+  width: 402px;
+  height: 192px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 36px;
+}
+
+.information__partner-logo {
+  width: 297px;
+  margin: 0 auto;
+}
+
+.information__partner-logo_second {
+  width: 244px;
+}
+
+.information__partner-logo_third {
+  width: 102px;
+}
+
+.information__partner-logo_fourth {
+  width: 92px;
+}
+
+.information__reviews {
+  margin: 40px 0 80px;
+  gap: 24px;
+  display: flex;
+}
+
+.information__review {
+  width: 544px;
+  height: 346px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 32px;
+  padding: 40px;
+  flex-direction: column;
+}
+
+.information__review-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.information__review-name {
+  margin: 0;
+  font-size: 24px;
+  font-family: Rubik;
+  line-height: 140%;
+  font-weight: 400;
+}
+
+.information__review-rating {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-family: Rubik;
+  line-height: 140%;
+  font-weight: 400;
+}
+
+.information__review-date {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  font-family: Rubik;
+  line-height: 135%;
+  font-weight: 400;
+}
+
+.information__review-comment {
+  margin: 0;
+  font-size: 18px;
+  font-family: Rubik;
+  line-height: 135%;
+  font-weight: 400;
+}
+
+.information__instruction {
+  display: flex;
+  margin-top: 19px;
+}
+
+.information__instruction-about {
+  margin: 24px 72px 0 0;
+}
+
+.information__instruction-text {
+  width: 496px;
+  color: #f7f5fa;
+  font-size: 24px;
+  font-family: Rubik;
+  line-height: 140%;
+  margin: 0;
+  font-weight: 400;
+}
+
+.information__instruction-button {
+  border: 2px solid #f7f5fa;
+  width: 191px;
+  height: 60px;
+  border-radius: 36px;
+  font-size: 18px;
+  font-family: Rubik;
+  line-height: 135%;
+  color: #f7f5fa;
+  background: none;
+  margin-top: 58px;
+  font-weight: 400;
+}
+
+.information__instruction-list {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.information__instruction-item {
+  border: 2px solid #f7f5fa;
+  border-radius: 36px;
+  padding: 24px 40px;
+  width: 1028px;
+  margin-bottom: 24px;
+}
+
+.information__instruction-item:last-child {
+  margin-bottom: 0;
+}
+
+.information__instruction-title {
+  width: 543px;
+  font-size: 28px;
+  font-family: Rubik;
+  line-height: 135%;
+  letter-spacing: 0.28px;
+  color: #f7f5fa;
+  margin: 0;
+  font-weight: 400;
+}
+
+.information__instruction-toggle {
+  background: none;
+  border: none;
+}
+
+.information__instruction-order {
+  width: 788px;
+  color: #f7f5fa;
+  margin: 20px 0 0 0;
+  font-size: 18px;
+  font-family: Rubik;
+  line-height: 135%;
+  font-weight: 400;
+}
+
+.information__instruction-case {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 400px) {
+  .information {
+    max-width: 376px;
+    padding: 32px 12px;
+  }
+
+  .information__title {
+    font-size: 28px;
+    letter-spacing: 0.28px;
+  }
+
+  .information__partners {
+    margin: 16px 0 32px;
+    gap: 12px;
+  }
+
+  .information__partner {
+    border-radius: 16px;
+    width: 164px;
+    height: 88px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .information__partner-logo {
+    width: 110px;
+    margin: 0 40px;
+  }
+
+  .information__partner-logo_second {
+    width: 118px;
+  }
+
+  .information__partner-logo_third {
+    width: 56px;
+  }
+
+  .information__partner-logo_fourth {
+    width: 50px;
+  }
+
+  .information__reviews {
+    margin: 16px 0 32px;
+    gap: 12px;
+    width: 993px;
+  }
+
+  .information__review {
+    width: 323px;
+    padding: 32px 20px;
+  }
+
+  .information__review-name {
+    font-size: 20px;
+    line-height: 135%;
+  }
+
+  .information__review-rating {
+    font-size: 16px;
+    line-height: 135%;
+  }
+
+  .information__review-comment {
+    font-size: 16px;
+    width: 238px;
+  }
+
+  .information__review-top {
+    width: 238px;
+  }
+
+  .information__instruction {
+    margin-top: 32px;
+    flex-direction: column-reverse;
+  }
+
+  .information__instruction-about {
+    margin: 32px 0 0 0;
+  }
+
+  .information__instruction-text {
+    width: 351px;
+    font-size: 16px;
+    line-height: 135%;
+  }
+
+  .information__instruction-button {
+    width: 351px;
+    height: 52px;
+    background: none;
+    margin-top: 18px;
+    letter-spacing: 0.36px;
+  }
+
+  .information__instruction-item {
+    border-radius: 32px;
+    padding: 24px 20px;
+    width: 311px;
+    margin-bottom: 12px;
+  }
+
+  .information__instruction-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .information__instruction-title {
+    font-size: 20px;
+  }
+
+  .information__instruction-order {
+    width: 311px;
+    margin: 16px 0 0 0;
+    font-size: 14px;
+  }
+
+}

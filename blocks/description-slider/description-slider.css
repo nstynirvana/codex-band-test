@@ -1,0 +1,13 @@
+.description-slider {
+  max-width: 1680px;
+  background-color: #fff;
+  padding: 0 120px;
+  width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+  .description-slider {
+    max-width: 351px;
+    padding: 0 12px;
+  }
+}

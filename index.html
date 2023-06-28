@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./pages/index.css">
+
+    <title>Тестовое задание</title>
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <img class="logo" src="./images/logo/logo.svg" alt="Логотип">
+        <div class="header-nav">
+          <div class="header-nav__menu">
+            <button class="header__hamburger-button">
+              <a>
+                <img class="icon" src="./images/icon/icon-hamburger.svg"
+                alt="Иконка гамбургера">
+              </a>
+              Каталог</button>
+            <button
+              class="header__hamburger-button header__hamburger-button_mobile">
+              <a>
+                <img class="icon" src="./images/icon/icon-hamburger.svg"
+                alt="Иконка гамбургера">
+              </a></button>
+            <a class="header__link">О компании</a>
+            <a class="header__link">Контакты</a>
+            <a class="header__link">Доставка и оплата</a>
+          </div>
+          <div class="header-nav__container">
+            <a class="number number_header" href="tel:+79850007603">+7 (985) 000-76-03</a>
+            <button class="header__cart-button">
+              <img
+                class="icon"
+                src="./images/icon/icon-cart.svg"
+                alt="Иконка корзины"
+              >
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="description-slider">
+          <div class="slider__container slider__container_first">
+            <div class="slider__container_nav">
+              <h2 class="slider__title">
+                Стоматологическая установка SONZ Z-CHAIR 300
+              </h2>
+              <p class="slider__subtitle">Акция на комплект</p>
+              <button class="slider__container-button">Узнать подробнее</button>
+            </div>
+            <img
+              class="slider__image"
+              src="./images/image-product/image-dental-machine.svg"
+              alt="Изображение стоматологической установки"
+            >
+            <button class="slider__button slider__button_backward">
+              <img
+                class="slider__button-image"
+                src="./images/icon/icon-arrow2.svg"
+                alt="Иконка стрелочки"
+              >
+            </button>
+            <button class="slider__button slider__button_straight">
+              <img
+                class="slider__button-image"
+                src="./images/icon/icon-arrow1.svg"
+                alt="Иконка стрелочки"
+              >
+            </button>
+            <div class="slider__swith">
+              <input type="radio" class="slider__swith-control" checked>
+              <input type="radio" class="slider__swith-control">
+              <input type="radio" class="slider__swith-control">
+            </div>
+          </div>
+
+          <div class="slider__container slider__container_second">
+            <div class="slider__container_nav">
+              <h2 class="slider__title slider__title_color_cream">О нас</h2>
+              <p class="slider__subtitle slider__subtitle_color_cream">
+                Компания Inn Med Tech существует с 2015 г. Мы осуществляем
+                поставки медицинского оборудования и материалов в Московской
+                области. С момента основания и по сегодняшний день мы прилагаем
+                все усилия для развития и успешной работы медицинских клиник
+                и не останавливаемся на достигнутом, а растём, увеличивая штат
+                сотрудников и развивая деятельность.
+              </p>
+              <button
+                class="slider__container-button slider__container-button_dark"
+              >
+                Подробнее о компании
+              </button>
+            </div>
+          </div>
+
+          <div class="slider__columns">
+            <div class="slider__column">
+              <div class="slider__container_nav slider__container_nav_second">
+                <h2 class="slider__title slider__title_color_white">
+                  Условия доставки
+                </h2>
+                <p class="slider__subtitle slider__subtitle_color_grey">
+                  Доставляем по Москве и области
+                </p>
+                <button
+                  class="slider__container-button slider__container-button_arrow"
+                >
+                  Подробнее о доставке
+                  <img
+                    class="slider__button-image"
+                    src="./images/icon/icon-arrow-white.svg"
+                    alt="Иконка стрелочки"
+                  >
+                </button>
+              </div>
+              <img
+                class="slider-points"
+                src="./images/image-background/image-background8.svg"
+                alt="Изображение пунктов доставки"
+              >
+            </div>
+            <div class="slider__column">
+              <div class="slider__container_nav slider__container_nav_second">
+                <h2 class="slider__title slider__title_color_dark">
+                  Способы оплаты
+                </h2>
+                <p class="slider__subtitle slider__subtitle_color_darkgrey">
+                  Наличный и безналичный рассчет
+                </p>
+                <button
+                  class="slider__container-button slider__container-button_arrow slider__container-button_arrow_black"
+                >
+                  Подробнее об оплате
+                  <img
+                    class="slider__button-image"
+                    src="./images/icon/icon-arrow-dark.svg"
+                    alt="Иконка стрелочки"
+                  >
+                </button>
+              </div>
+              <div class="slider-column__rectangle">
+                <img
+                  class="slider-column__rectangle_net"
+                  src="./images/icon/icon-net.svg"
+                  alt="Иконка сети"
+                >
+                <img
+                  class="slider-column__rectangle_chip"
+                  src="./images/icon/icon-chip.svg"
+                  alt="Иконка чипа"
+                >
+              </div>
+            </div>
+            <div class="slider__column">
+              <div class="slider__container_nav slider__container_nav_second slider__container_nav_width">
+                <h2 class="slider__title slider__title_color_white">
+                  Оптовым покупателям
+                </h2>
+                <p class="slider__subtitle slider__subtitle_color_grey">
+                  Работаем с клиниками, больницами и медицинскими центрами
+                </p>
+                <button
+                  class="slider__container-button slider__container-button_arrow"
+                >
+                  Подробнее
+                  <img
+                    class="slider__button-image"
+                    src="./images/icon/icon-arrow-white.svg"
+                    alt="Иконка стрелочки"
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="slider__column">
+              <ul class="slider__advantages">
+                <li class="slider__advantage">Индивидуальный подход</li>
+                <li class="slider__advantage">Гибкая система скидок</li>
+                <li class="slider__advantage">Максимальная ответственность</li>
+                <li class="slider__advantage">Гарантия и сопровождение</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="catalog">
+          <div class="catalog__container">
+            <div class="catalog__top">
+              <h2 class="catalog__title">Каталог товаров</h2>
+              <div class="catalog__buttons">
+                <button class="catalog__button">
+                  <img
+                    class="catalog__button-image catalog__button-image_first"
+                    src="./images/icon/icon-arrow2.svg"
+                    alt="Иконка стрелочки"
+                  >
+                </button>
+                <button class="catalog__button">
+                  <img
+                    class="catalog__button-image"
+                    src="./images/icon/icon-arrow1.svg"
+                    alt="Иконка стрелочки"
+                  >
+                </button>
+              </div>
+            </div>
+            <div class="catalog__cards">
+              <div class="catalog__card">
+                <div class="catalog__card-nav">
+                  <h3 class="catalog__subtitle">Стоматология</h3>
+                  <button class="catalog__button-nav">
+                    Открыть каталог
+                    <img
+                      class="catalog__button-nav-image"
+                      src="./images/icon/icon-arrow-purple.svg"
+                      alt="Иконка стрелочки"
+                    >
+                  </button>
+                </div>
+                <img
+                  class="catalog__product-image catalog__product-image_position"
+                  src="./images/image-product/image-dental-machine.svg"
+                  alt="Изображение стоматологической установки"
+                >
+              </div>
+
+              <div class="catalog__card">
+                <div class="catalog__card-nav">
+                  <h3 class="catalog__subtitle">Ревидент</h3>
+                  <button class="catalog__button-nav">
+                    Открыть каталог
+                    <img
+                      class="catalog__button-nav-image"
+                      src="./images/icon/icon-arrow-purple.svg"
+                      alt="Иконка стрелочки"
+                    >
+                  </button>
+                </div>
+                <img
+                  class="catalog__product-image catalog__product-image_angle"
+                  src="./images/image-product/image-dental-preparation2.svg"
+                  alt="Изображение препарата Ревидент"
+                >
+              </div>
+
+              <div class="catalog__card">
+                <div class="catalog__card-nav">
+                  <h3 class="catalog__subtitle">President</h3>
+                  <button class="catalog__button-nav">
+                    Открыть каталог
+                    <img
+                      class="catalog__button-nav-image"
+                      src="./images/icon/icon-arrow-purple.svg"
+                      alt="Иконка стрелочки"
+                    >
+                  </button>
+                </div>
+                <img
+                  class="catalog__product-image catalog__product-image_angle"
+                  src="./images/image-product/image-dental-preparation.svg"
+                  alt="Изображение препарата President"
+                >
+              </div>
+
+              <div class="catalog__card">
+                <div class="catalog__card-nav">
+                  <h3 class="catalog__subtitle">Медицинская мебель</h3>
+                  <button class="catalog__button-nav">
+                    Открыть каталог
+                    <img
+                      class="catalog__button-nav-image"
+                      src="./images/icon/icon-arrow-purple.svg"
+                      alt="Иконка стрелочки"
+                    >
+                  </button>
+                </div>
+                <img
+                  class="catalog__product-image catalog__product-image_position"
+                  src="./images/image-product/image-dental-furniture.svg"
+                  alt="Изображение медицинской мебели"
+                >
+              </div>
+            </div>
+          </div>
+          <div class="catalog__products">
+            <h2 class="catalog__products-title">Популярные товары</h2>
+            <div class="catalog__products-cards">
+              <div class="catalog__products-card">
+                <h3 class="catalog__products-number">ND-A006198</h3>
+                <img
+                  class="catalog__product-image catalog__product-image_mobile"
+                  src="./images/image-product/image-dental-machine-in-black.svg"
+                  alt="Изображение стоматологической установки"
+                >
+                <h3 class="catalog__products-subtitle">
+                  Стоматологическая установка Mercury 330 стандарт нижняя подача
+                </h3>
+                <div class="catalog__products-card-nav">
+                  <h3 class="catalog__products-price">12 239 000 ₽</h3>
+                  <button class="catalog__products-button-nav">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+
+              <div class="catalog__products-card">
+                <h3 class="catalog__products-info">SALE</h3>
+                <img
+                  class="catalog__product-image catalog__product-image_mobile"
+                  src="./images/image-product/image-dental-machine-in-orange.svg"
+                  alt="Изображение стоматологической установки"
+                >
+                <h3 class="catalog__products-subtitle">
+                  Стоматологическая установка SONZ Z-CHAIR 300 в мягкой обивке
+                </h3>
+                <div class="catalog__products-card-nav">
+                  <div>
+                    <h3
+                      class="catalog__products-price catalog__products-price_purple"
+                    >
+                      359 000 ₽
+                    </h3>
+                    <h3 class="catalog__products-oldprice">379 000 ₽</h3>
+                  </div>
+                  <button class="catalog__products-button-nav">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+
+              <div class="catalog__products-card">
+                <h3 class="catalog__products-info catalog__products-info_green">
+                  NEW
+                </h3>
+                <img
+                  class="catalog__product-image catalog__product-image_mobile"
+                  src="./images/image-product/image-dental-machine-in-black.svg"
+                  alt="Изображение стоматологической установки"
+                >
+                <h3 class="catalog__products-subtitle">
+                  Стоматологическая установка Mercury 330 стандарт нижняя подача
+                </h3>
+                <div class="catalog__products-card-nav">
+                  <h3 class="catalog__products-price">12 239 000 ₽</h3>
+                  <button class="catalog__products-button-nav">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+
+              <div class="catalog__products-card">
+                <img
+                  class="catalog__product-image catalog__product-image_mobile"
+                  src="./images/image-product/image-dental-machine-in-black.svg"
+                  alt="Изображение стоматологической установки"
+                >
+                <h3 class="catalog__products-subtitle">
+                  Стоматологическая установка Mercury 330 стандарт нижняя подача
+                </h3>
+                <div class="catalog__products-card-nav">
+                  <h3 class="catalog__products-price">12 239 000 ₽</h3>
+                  <button class="catalog__products-button-nav">
+                    В корзину
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button class="catalog__button-go">Перейти в каталог</button>
+          </div>
+        </section>
+
+        <section class="information">
+          <div class="information__container">
+            <h2 class="information__title">Наши партнеры</h2>
+            <div class="information__partners">
+              <div class="information__partner">
+                <img
+                  class="information__partner-logo"
+                  src="./images/logo/logo-partners1.svg"
+                  alt="Логотип Novgodent"
+                >
+              </div>
+              <div class="information__partner">
+                <img
+                  class="information__partner-logo information__partner-logo_second"
+                  src="./images/logo/logo-partners2.svg"
+                  alt="Логотип Novgodent"
+                >
+              </div>
+              <div class="information__partner">
+                <img
+                  class="information__partner-logo information__partner-logo_third"
+                  src="./images/logo/logo-partners3.svg"
+                  alt="Логотип Novgodent"
+                >
+              </div>
+              <div class="information__partner">
+                <img
+                  class="information__partner-logo information__partner-logo_fourth"
+                  src="./images/logo/logo-partners4.svg"
+                  alt="Логотип Novgodent"
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="information__container">
+            <h2 class="information__title">Отзывы о нас</h2>
+            <div class="information__reviews">
+              <div class="information__review">
+                <div class="information__review-top">
+                  <h3 class="information__review-name">Софья П.</h3>
+                  <p class="information__review-rating">
+                    5
+                    <img
+                      src="./images/icon/icon-star.svg"
+                      alt="Иконка звездочки"
+                    >
+                  </p>
+                </div>
+                <p class="information__review-date">18.01.2023</p>
+                <p class="information__review-comment">
+                  Это лучшее место для тех, кто ценит качество, внимание
+                  к деталям и индивидуальный подход к клиенту! Настоятельно
+                  рекомендую всем! Работают исключительно профессионалы своего
+                  дела!
+                </p>
+              </div>
+              <div class="information__review">
+                <div class="information__review-top">
+                  <h3 class="information__review-name">Наташа Мельникова</h3>
+                  <p class="information__review-rating">
+                    5
+                    <img
+                      src="./images/icon/icon-star.svg"
+                      alt="Иконка звездочки"
+                    >
+                  </p>
+                </div>
+                <p class="information__review-date">27.03.2023</p>
+                <p class="information__review-comment">
+                  Покупала CAD/CAM оборудование, меня грамотно
+                  проконсультировали менеджеры, продемонстрировали несколько
+                  моделей под мой бюджет. Большое спасибо, без покупки не ушла)
+                </p>
+              </div>
+              <div class="information__review">
+                <div class="information__review-top">
+                  <h3 class="information__review-name">is Kh</h3>
+                  <p class="information__review-rating">
+                    4
+                    <img
+                      src="./images/icon/icon-star.svg"
+                      alt="Иконка звездочки"
+                    >
+                  </p>
+                </div>
+                <p class="information__review-date">7.02.2022</p>
+                <p class="information__review-comment">
+                  Это глубоко специализированная организация и зевакам сюда
+                  можно и не заезжа ь. А вот специалистам стоматологического
+                  профиля, здесь самое место. Большие площади, наглядные
+                  экспонаты, информация, консультации и возможность заключить
+                  договор, гибкие условия и поддержка покупателей. Подробно
+                  рассказать в формате отзыва не смогу — заходите, зсезжайте,
+                  звоните. По полученным впечатлениям — рекомендую настоятельно.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="information__container">
+            <h2 class="information__title">Часто задаваемые вопросы</h2>
+            <div class="information__instruction">
+              <div class="information__instruction-about">
+                <p class="information__instruction-text">
+                  Если вы не нашли ответы на свои вопросы, вы можете задать
+                  их через специальную форму
+                </p>
+                <button class="information__instruction-button">
+                  Задать вопрос
+                </button>
+              </div>
+              <ul class="information__instruction-list">
+                <li class="information__instruction-item">
+                  <div class="information__instruction-case">
+                    <h3 class="information__instruction-title">
+                      Как сделать заказ
+                    </h3>
+                    <button class="information__instruction-toggle">
+                      <img
+                        src="./images/icon/icon-minus.svg"
+                        alt="Иконка, чтобы свернуть блок"
+                      >
+                    </button>
+                  </div>
+                  <p class="information__instruction-order">
+                    На странице интернет-магазина выберите понравившееся
+                    средство. Чтобы узнать о нем подробнее, кликните
+                    на изображение — вы попадёте на страницу товара с полным
+                    описанием, мы старались сделать его полезным
+                    и информативным! Если продукт представлен в нескольких
+                    объёмах/цветах, выберите необходимый и добавьте в корзину. В
+                    корзине вы сможете проверить состав заказа, применить
+                    промокод. Нажав «Перейти к оформлению», вы попадёте
+                    на страницу заполнения данных для оформления заказа.
+                    Заполните необходимую информацию, затем сайт предложит
+                    варианты доставки и оплаты. В поле «комментарий к заказу»
+                    можно написать нам свои пожелания по оформлению и доставке,
+                    а мы постараемся все исполнить! Нажмите «Перейти к оплате»,
+                    так вы подтвердите корректность предоставленной контактной
+                    информации, состав заказа.Оплатите заказ сразу в открывшейся
+                    странице. Дальше дело за нами, бежим собирать посылку
+                    для вас! Чаще всего подтверждение не требуется, только
+                    при экспресс-доставке и наложенном платеже мы свяжемся
+                    с вами дополнительно.
+                  </p>
+                </li>
+                <li class="information__instruction-item">
+                  <div class="information__instruction-case">
+                    <h3 class="information__instruction-title">Доставка</h3>
+                    <button class="information__instruction-toggle">
+                      <img
+                        src="./images/icon/icon-plus.svg"
+                        alt="Иконка, чтобы развернуть блок"
+                      >
+                    </button>
+                  </div>
+                </li>
+                <li class="information__instruction-item">
+                  <div class="information__instruction-case">
+                    <h3 class="information__instruction-title">
+                      Обмен и возврат
+                    </h3>
+                    <button class="information__instruction-toggle">
+                      <img
+                        src="./images/icon/icon-plus.svg"
+                        alt="Иконка, чтобы развернуть блок"
+                      >
+                    </button>
+                  </div>
+                </li>
+                <li class="information__instruction-item">
+                  <div class="information__instruction-case">
+                    <h3 class="information__instruction-title">Гарантии</h3>
+                    <button class="information__instruction-toggle">
+                      <img
+                        src="./images/icon/icon-plus.svg"
+                        alt="Иконка, чтобы развернуть блок"
+                      >
+                    </button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="articles">
+          <h2 class="articles__title">Статьи</h2>
+          <div class="articles__container">
+            <div class="articles__container-cards">
+              <div class="articles__container-card">
+                <img
+                  class="articles__container-image"
+                  src="./images/image-background/image-background2.svg"
+                  alt="Изображение с названием статьи"
+                >
+                <h3 class="articles__container-subtitle">
+                  Технические преимущества установок SONZ
+                </h3>
+                <p class="articles__container-date">18.01.2023</p>
+                <p class="articles__container-comment">
+                  Добро пожаловать в мир тёплых улыбок и эффективного лечения
+                  со стоматологической установкой SONZ!
+                </p>
+                <a class="articles__container-button"> Читать больше </a>
+              </div>
+
+              <div class="articles__container-card">
+                <img
+                  class="articles__container-image"
+                  src="./images/image-background/image-background3.svg"
+                  alt="Изображение с названием статьи"
+                >
+                <h3 class="articles__container-subtitle">
+                  Отбеливание Beyond – почему его рекомендуют врачи?
+                </h3>
+                <p class="articles__container-date">18.01.2023</p>
+                <p class="articles__container-comment">
+                  Как отбелить зубы? Это часто задаваемый вопрос в Google,
+                  а это значит, что он беспокоит многих людей. Более 77% людей
+                  обеспокоены своей улыбкой. Немало, правда ли? Предлагать
+                  пациентам профессиональные отбеливающие процедуры и продукты —
+                  это простой, но чрезвычайно полезный способ расширить свою
+                  стоматологическую практику и сохранить удовлетворённость
+                  пациентов. Только встаёт вопрос: что выбрать для этих целей?
+                </p>
+                <a class="articles__container-button"> Читать больше </a>
+              </div>
+
+              <div class="articles__container-card">
+                <img
+                  class="articles__container-image"
+                  src="./images/image-background/image-background4.svg"
+                  alt="Изображение с названием статьи"
+                >
+                <h3 class="articles__container-subtitle">
+                  Тейпирование в стоматологии
+                </h3>
+                <p class="articles__container-date">18.01.2023</p>
+                <p class="articles__container-comment">
+                  Использование метода кинезиотейпировании в стоматологии
+                  в 2023 году по прежнему кажется новаторским, поскольку
+                  информации об этом методе опубликовано не так много. В этой
+                  статье мы рассказали о применении тейпов в стоматологии
+                </p>
+                <a class="articles__container-button"> Читать больше </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__info">
+            <img class="logo" src="./images/logo/logo.svg" alt="Логотип" >
+            <a class="number number_bottom" href="tel:+79850007603"
+              >+7 (985) 000-76-03</a
+            >
+            <p class="footer__info-address">г. Жуковский, ул. Гагарина 60а</p>
+            <a class="footer__info-site">inn-med@bk.ru</a>
+            <ul class="footer__info-links">
+              <li>
+                <a class="footer__info-link" href="#">
+                  <img
+                    class="footer__info-icon"
+                    src="./images/icon/icon-vk.svg"
+                    alt="Логотип ВКонтакте"
+                  >
+                </a>
+              </li>
+              <li>
+                <a class="footer__info-link" href="#">
+                  <img
+                    class="footer__info-icon"
+                    src="./images/icon/icon-whatsapp.svg"
+                    alt="Логотип WhatsApp"
+                  >
+                </a>
+              </li>
+              <li>
+                <a class="footer__info-link" href="#">
+                  <img
+                    class="footer__info-icon"
+                    src="./images/icon/icon-telegram.svg"
+                    alt="Логотип Telegram"
+                  >
+                </a>
+              </li>
+            </ul>
+            <p class="footer__info-owner">&copy;InnMedTech 2023</p>
+            <a class="footer__info-rules">Политика конфиденциальности</a>
+          </div>
+
+          <div class="footer__line"></div>
+
+          <div class="footer__remark-list">
+            <div class="footer__remark">
+              <ul class="footer__remark-links">
+                <li><a class="footer__remark-link" href="#">Каталог</a></li>
+                <li><a class="footer__remark-link" href="#">О компании</a></li>
+                <li>
+                  <a class="footer__remark-link" href="#">Доставка и оплата</a>
+                </li>
+                <li><a class="footer__remark-link" href="#">Контакты</a></li>
+
+                <li><a class="footer__remark-link" href="#">Шоурум</a></li>
+                <li><a class="footer__remark-link" href="#">Статьи</a></li>
+                <li>
+                  <a class="footer__remark-link" href="#"
+                    >Оптовым покупателям</a
+                  >
+                </li>
+                <li>
+                  <a class="footer__remark-link" href="#">Документация</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer__line footer__line_mobile"></div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
